@@ -1,0 +1,330 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    min-height: 100vh;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* MY CODE */
+body{
+    min-height: 100vh;
+    width: 100vw;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    background-color: #cccccc;
+    box-shadow: 3px 3px 5px rgba(red, green, blue, alpha);
+    width: 100vw;
+}
+header h2{
+    margin-right: auto;
+    margin: 20px;
+    font-size: 35px;
+    font-weight: bold;
+    
+}
+header .search-bar{
+    display: none;
+}
+header .dropdown{
+    margin: auto;
+    padding-right: 20px;
+}
+header .wrap{
+    margin-left: auto;
+    cursor: pointer;
+    
+}
+header .menu{
+    width: 40px;
+    height: 5px;
+    background-color : black;
+    margin: 6px 0;
+}
+header button{
+    margin-left: 50px ;
+}
+header .dropdown a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 0px;
+    margin: 30px 40px 30px 10px;
+    font-size: 25px;
+    text-align: center;
+}
+header .dropdown .content{
+    position: absolute;
+    background-color: #cccccc62;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.80);
+    display:none ;
+    width: fit-content;
+    
+}
+header .dropdown:hover .content{
+    display: block;
+}
+
+header .dropdown:hover button{
+    background-color: rgb(189, 186, 186);
+}
+
+header .dropdown a:hover{
+    background-color: hsl(0, 4%, 61%);
+
+}
+header ul{
+    display: none;
+}
+
+/* MAIN */
+
+main div{
+    display: flex;
+    background-color: rgb(243, 240, 240) ;
+}
+
+main .banner{
+    background-image: url(img/banner1.jpg);
+    width: 100%;
+    margin: 10px 0px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-content: center;
+    display: table;
+    
+}
+main .bannertext{
+    display: block;
+        font-size: 70px;
+        font-weight: bold;
+        line-height: 100px;
+        color: white;
+        text-shadow: black;
+        text-align: center;
+        padding-top: 20% ;
+        padding-bottom: 20%;        
+}
+
+main .us1{
+    font-size: 35px;
+    margin: 0px 20px;
+    padding: 20px 0px;
+    line-height: 50px;
+}
+main .us2{
+    font-size: 25px;
+    margin: 0px 20px;
+    padding: 20px 0px;
+    line-height: 30px;
+    font-weight: 100;
+}
+.text{
+    font-size: 25px;
+    margin: 25px;
+}
+.learnMore{
+    text-decoration: none;
+    color: black;
+}
+.shopNow button{
+    font-size: 50px;
+    justify-self: center;
+    margin-left: 40px;
+}
+.shopNow a{
+    text-decoration: none;
+    color: black;
+}
+main .Gallery{
+    position: relative;
+    margin: 0;
+    padding: 10px;
+}
+.Gallery ul{
+    width: 100%;
+    list-style: none;
+    padding: 20px;
+}
+
+.Gallery ul li {
+    display: inline-block;
+    margin: 10px;
+    border: 4px solid rgba(0, 0, 0, 0.651) ;
+}
+
+/* FOOTER*/
+footer{
+    background-color: black;
+}
+footer div{
+    display: flexbox;
+    padding-left: 20px;
+}
+footer section{
+    color: white;
+    display: inline-block;
+    margin: 8px 12px;
+    padding: 10px 0px 10px 0px;
+    padding-right: 50px;
+    
+}
+footer h3{
+    display: block;
+    font-size: 25px;
+    padding-bottom: 5px;
+
+}
+footer h4{
+    display: block;
+    font-size: 15px;
+}
+
+
+@media only screen and (min-width:650px){
+
+    /* HEADER */
+    header h2{
+        width: 100%;
+        font-size: 55px;
+        margin-left: 40px;
+    }
+    header .search-bar{
+        display: block;
+        width: 60%;
+        margin-right: 10px;
+        block-size: 50px ;
+        
+    }
+    header ul{
+        display: none;
+    }
+
+}
+
+@media(min-width:1000px){
+    
+    /* HEADER */
+    
+    
+    header .search-bar{
+        display: none;
+    }
+    header .dropdown{
+        display: none;
+    }
+    header ul{
+        width: 100%;
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    header li{
+        height: 50px;
+        
+    }
+    header a{
+        height: 100%;
+        padding: 0px 30px;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        color: black;
+        text-transform: uppercase;
+    }
+    header a:hover{
+        background-color: rgb(121, 112, 112);
+    }
+   
+}
